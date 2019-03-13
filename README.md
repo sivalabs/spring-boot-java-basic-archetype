@@ -25,3 +25,21 @@ mvn archetype:generate \
     -Dversion=1.0-SNAPSHOT \
     -Dpackage=com.mycompany.myapp
 ```
+
+
+## Developer Notes
+
+Procedure for deploying to Maven Central https://central.sonatype.org/pages/apache-maven.html
+
+Create or update archetypes and set version to SNAPSHOT (ex: 1.0.0-SNAPSHOT)
+
+Deploy SNAPSHOT version to https://oss.sonatype.org/content/repositories/snapshots/
+
+`spring-boot-java-basic-archetype> mvn clean deploy`
+
+Deploy release version to Maven Central
+
+```
+spring-boot-java-basic-archetype> mvn release:clean release:prepare
+spring-boot-java-basic-archetype> mvn release:perform`
+```
