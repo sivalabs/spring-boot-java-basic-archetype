@@ -4,7 +4,7 @@
 
     <groupId>io.github.sivalabs.maven.archetypes</groupId>
     <artifactId>spring-boot-java-basic-archetype</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>maven-archetype</packaging>
 
     <name>spring-boot-java-basic-archetype</name>
@@ -41,7 +41,7 @@
         <connection>scm:git:https://github.com/sivalabs/spring-boot-java-basic-archetype.git</connection>
         <developerConnection>scm:git:https://github.com/sivalabs/spring-boot-java-basic-archetype.git</developerConnection>
         <url>https://github.com/sivalabs/spring-boot-java-basic-archetype</url>
-        <tag>HEAD</tag>
+        <tag>spring-boot-java-basic-archetype-0.0.2</tag>
     </scm>
 
     <distributionManagement>
